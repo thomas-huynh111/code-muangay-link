@@ -1,5 +1,10 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 
-const config = defineConfig({});
+const config = defineConfig({
+  appType: 'mpa',
+  build: {
+    rollupOptions: { input: ['./index.html', './index2.html'] },
+  },
+});
 
 export default config;
