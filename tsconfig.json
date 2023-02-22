@@ -1,0 +1,1 @@
+{ "extends": "@codecb/tsconfigs/tsconfig.browser-app" }
